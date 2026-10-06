@@ -1,0 +1,24 @@
+name: Tests
+
+on:
+  push:
+    paths-ignore: ["data/**", "REPORT.md"]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - name: watchlist.json is valid and every page has an id, type and URL
+        run: node -e "const w=require('./watchlist.json'); const bad=w.pages.filter(p=>!p.id||!p.type||!/^https?:\/\//.test(p.url)); if(bad.length){console.error(bad);process.exit(1)} console.log(w.pages.length+' pages ok')"

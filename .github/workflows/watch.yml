@@ -1,0 +1,69 @@
+name: Source watch
+
+# Every Monday morning (Paris), read the pages the AI assistants cite, commit what changed, and open issues
+# for the changes a human should act on. Run it by hand from the Actions tab at any time.
+on:
+  schedule:
+    - cron: "0 5 * * 1"
+  workflow_dispatch:
+    inputs:
+      open_issues:
+        description: "Open or update GitHub issues for important changes"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: source-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+
+      - name: Test the page readers
+        run: npm test
+
+      - name: Read the watched pages
+        run: npm run watch
+
+      - name: Commit snapshots and report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data REPORT.md
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+          else
+            git commit -m "Source watch $(date -u +%F)"
+            git push
+          fi
+
+      - name: Open or update issues
+        if: ${{ github.event_name == 'schedule' || inputs.open_issues }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          export GITHUB_SHA=$(git rev-parse HEAD)
+          npm run issues
+
+      - name: Summary
+        if: always()
+        run: |
+          if [ -f REPORT.md ]; then cat REPORT.md >> "$GITHUB_STEP_SUMMARY"; fi
