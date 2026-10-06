@@ -1,0 +1,33 @@
+{
+  "id": "saasradar",
+  "url": "https://www.saasradar.fr/blog/meilleur-crm-pme-freelance-2026",
+  "status": "ok",
+  "http": 200,
+  "title": "Meilleur CRM pour PME et freelances en 2026 : comparatif – SaaS Radar",
+  "dates": {
+    "modified": "2026-10-04",
+    "published": "2026-04-28"
+  },
+  "ranks": {
+    "folk": 6,
+    "HubSpot": 1,
+    "Pipedrive": 2,
+    "Attio": "mentioned",
+    "Salesforce": 5,
+    "Sellsy": 4,
+    "noCRM.io": 3
+  },
+  "order": [
+    "HubSpot",
+    "Pipedrive",
+    "noCRM.io",
+    "Sellsy",
+    "Salesforce",
+    "folk"
+  ],
+  "length": 6,
+  "method": "numbered",
+  "hash": "25693e6abdccef6a",
+  "changed": "2026-10-06",
+  "checked": "2026-10-06"
+}

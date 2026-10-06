@@ -1,0 +1,30 @@
+{
+  "id": "tribecrm",
+  "url": "https://tribecrm.eu/blog/what-are-the-best-alternatives-to-hubspot/",
+  "status": "ok",
+  "http": 200,
+  "title": "Best HubSpot alternatives for SMBs in 2026 | Tribe CRM",
+  "dates": {
+    "modified": "2026-05-13",
+    "published": "2026-04-09"
+  },
+  "ranks": {
+    "Pipedrive": 2,
+    "Zoho CRM": 3,
+    "Freshsales": 4,
+    "Capsule": 5,
+    "Tribe CRM": 1
+  },
+  "order": [
+    "Tribe CRM",
+    "Pipedrive",
+    "Zoho CRM",
+    "Freshsales",
+    "Capsule"
+  ],
+  "length": 5,
+  "method": "numbered",
+  "hash": "3c1b741b7e2cc9f6",
+  "changed": "2026-10-06",
+  "checked": "2026-10-06"
+}

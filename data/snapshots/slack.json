@@ -1,0 +1,38 @@
+{
+  "id": "slack",
+  "url": "https://slack.com/blog/crm/best-crm-for-small-business",
+  "status": "ok",
+  "http": 200,
+  "title": "Best CRM for Small Business in 2026 | Slack",
+  "dates": {
+    "modified": "",
+    "published": ""
+  },
+  "ranks": {
+    "HubSpot": 3,
+    "Pipedrive": 5,
+    "Zoho CRM": 4,
+    "Salesforce": 1,
+    "monday.com": 7,
+    "Freshsales": 6,
+    "Insightly": 8,
+    "Less Annoying CRM": 9,
+    "Slack": 2
+  },
+  "order": [
+    "Salesforce",
+    "Slack",
+    "HubSpot",
+    "Zoho CRM",
+    "Pipedrive",
+    "Freshsales",
+    "monday.com",
+    "Insightly",
+    "Less Annoying CRM"
+  ],
+  "length": 9,
+  "method": "headings",
+  "hash": "bf9a98a64a067d40",
+  "changed": "2026-10-06",
+  "checked": "2026-10-06"
+}

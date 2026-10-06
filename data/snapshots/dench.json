@@ -1,0 +1,29 @@
+{
+  "id": "dench",
+  "url": "https://www.dench.com/blog/best-crm-for-b2b-startups",
+  "status": "ok",
+  "http": 200,
+  "title": "Best CRM for B2B Startups in 2026 — The Times of Claw",
+  "dates": {
+    "modified": "2026-05-31",
+    "published": "2026-03-26"
+  },
+  "ranks": {
+    "HubSpot": 2,
+    "Pipedrive": 3,
+    "Attio": 4,
+    "Salesforce": 5
+  },
+  "order": [
+    "(other)",
+    "HubSpot",
+    "Pipedrive",
+    "Attio",
+    "Salesforce"
+  ],
+  "length": 5,
+  "method": "numbered",
+  "hash": "4656b8198e46a179",
+  "changed": "2026-10-06",
+  "checked": "2026-10-06"
+}

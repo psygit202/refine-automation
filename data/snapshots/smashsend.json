@@ -1,0 +1,44 @@
+{
+  "id": "smashsend",
+  "url": "https://smashsend.com/blog/best-crm-for-saas-startups",
+  "status": "ok",
+  "http": 200,
+  "title": "The 12 Best CRM for SaaS Startups in 2026: An In-Depth Guide",
+  "dates": {
+    "modified": "2026-01-28",
+    "published": "2026-01-28"
+  },
+  "ranks": {
+    "HubSpot": 2,
+    "Pipedrive": 4,
+    "Attio": 9,
+    "Zoho CRM": 6,
+    "Salesforce": 3,
+    "monday.com": 8,
+    "Freshsales": 7,
+    "Salesflare": 11,
+    "Copper": 10,
+    "Close": 5,
+    "Zendesk Sell": 12,
+    "SMASHSEND": 1
+  },
+  "order": [
+    "SMASHSEND",
+    "HubSpot",
+    "Salesforce",
+    "Pipedrive",
+    "Close",
+    "Zoho CRM",
+    "Freshsales",
+    "monday.com",
+    "Attio",
+    "Copper",
+    "Salesflare",
+    "Zendesk Sell"
+  ],
+  "length": 12,
+  "method": "numbered",
+  "hash": "a6196288f7643b01",
+  "changed": "2026-10-06",
+  "checked": "2026-10-06"
+}

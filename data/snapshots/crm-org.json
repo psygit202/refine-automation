@@ -1,0 +1,29 @@
+{
+  "id": "crm-org",
+  "url": "https://crm.org/crmland/best-crm-for-startups",
+  "status": "ok",
+  "http": 200,
+  "title": "Best CRM for Startups: 8 Picks for Early-Stage Growth | CRM.org",
+  "dates": {
+    "modified": "2026-06-19",
+    "published": "2025-08-26"
+  },
+  "ranks": {
+    "HubSpot": "mentioned",
+    "Pipedrive": "mentioned",
+    "Attio": "mentioned",
+    "Salesflare": 1,
+    "Capsule": 2,
+    "Streak": 3
+  },
+  "order": [
+    "Salesflare",
+    "Capsule",
+    "Streak"
+  ],
+  "length": 3,
+  "method": "headings",
+  "hash": "bf2a73055053fe8c",
+  "changed": "2026-10-06",
+  "checked": "2026-10-06"
+}

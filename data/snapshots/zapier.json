@@ -1,0 +1,40 @@
+{
+  "id": "zapier",
+  "url": "https://zapier.com/blog/best-crm-app/",
+  "status": "ok",
+  "http": 200,
+  "title": "The 11 best CRM software in 2026 | Zapier",
+  "dates": {
+    "modified": "2026-06-22",
+    "published": "2014-09-23"
+  },
+  "ranks": {
+    "HubSpot": 2,
+    "Pipedrive": 4,
+    "Attio": 7,
+    "Zoho CRM": 3,
+    "Salesforce": 1,
+    "Copper": 10,
+    "Close": 9,
+    "Nutshell": 6,
+    "Nimble": 5,
+    "Salesmate": 8
+  },
+  "order": [
+    "Salesforce",
+    "HubSpot",
+    "Zoho CRM",
+    "Pipedrive",
+    "Nimble",
+    "Nutshell",
+    "Attio",
+    "Salesmate",
+    "Close",
+    "Copper"
+  ],
+  "length": 10,
+  "method": "headings",
+  "hash": "e99c3609cc2c9e92",
+  "changed": "2026-10-06",
+  "checked": "2026-10-06"
+}

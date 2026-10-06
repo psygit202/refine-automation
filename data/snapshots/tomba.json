@@ -1,0 +1,32 @@
+{
+  "id": "tomba",
+  "url": "https://tomba.io/blog/hubspot-alternatives",
+  "status": "ok",
+  "http": 200,
+  "title": "9 Best HubSpot Alternatives in 2026 (Cheaper Picks) - Tomba Blog",
+  "dates": {
+    "modified": "2026-09-08",
+    "published": "2026-09-08"
+  },
+  "ranks": {
+    "Pipedrive": 1,
+    "Attio": 4,
+    "Zoho CRM": 2,
+    "Salesforce": 5,
+    "Freshsales": 6,
+    "Close": 3
+  },
+  "order": [
+    "Pipedrive",
+    "Zoho CRM",
+    "Close",
+    "Attio",
+    "Salesforce",
+    "Freshsales"
+  ],
+  "length": 6,
+  "method": "headings",
+  "hash": "98ee28a445cf30c0",
+  "changed": "2026-10-06",
+  "checked": "2026-10-06"
+}

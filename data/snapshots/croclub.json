@@ -1,0 +1,37 @@
+{
+  "id": "croclub",
+  "url": "https://croclub.com/tools/best-crm-software-startups/",
+  "status": "ok",
+  "http": 200,
+  "title": "10 Best CRM Software for Startups Reviewed in 2026",
+  "dates": {
+    "modified": "2026-08-05",
+    "published": "2024-08-15"
+  },
+  "ranks": {
+    "HubSpot": "mentioned",
+    "Pipedrive": 5,
+    "Attio": 2,
+    "Salesforce": 8,
+    "Salesflare": 1,
+    "EngageBay": 3,
+    "Agile CRM": 7,
+    "Streak": 6,
+    "ClickUp": 4
+  },
+  "order": [
+    "Salesflare",
+    "Attio",
+    "EngageBay",
+    "ClickUp",
+    "Pipedrive",
+    "Streak",
+    "Agile CRM",
+    "Salesforce"
+  ],
+  "length": 8,
+  "method": "headings",
+  "hash": "ed3482f9d4abc61d",
+  "changed": "2026-10-06",
+  "checked": "2026-10-06"
+}

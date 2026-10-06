@@ -1,0 +1,34 @@
+{
+  "id": "implemence",
+  "url": "https://www.implemence.fr/quel-crm-choisir",
+  "status": "ok",
+  "http": 200,
+  "title": "Quel CRM choisir en 2026 ? Comparatif terrain PME B2B",
+  "dates": {
+    "modified": "",
+    "published": ""
+  },
+  "ranks": {
+    "HubSpot": 2,
+    "Pipedrive": 3,
+    "Attio": 6,
+    "Zoho CRM": 4,
+    "Salesforce": 1,
+    "Sellsy": 5,
+    "Breakcold": 7
+  },
+  "order": [
+    "Salesforce",
+    "HubSpot",
+    "Pipedrive",
+    "Zoho CRM",
+    "Sellsy",
+    "Attio",
+    "Breakcold"
+  ],
+  "length": 7,
+  "method": "headings",
+  "hash": "320bf55c87091dff",
+  "changed": "2026-10-06",
+  "checked": "2026-10-06"
+}

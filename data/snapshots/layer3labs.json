@@ -1,0 +1,36 @@
+{
+  "id": "layer3labs",
+  "url": "https://www.layer3labs.io/comparisons/hubspot-alternatives",
+  "status": "ok",
+  "http": 200,
+  "title": "HubSpot Alternatives 2026: 7 CRMs Compared for SMBs",
+  "dates": {
+    "modified": "2026-06-25",
+    "published": "2026-06-25"
+  },
+  "ranks": {
+    "Pipedrive": 2,
+    "Zoho CRM": 3,
+    "Salesforce": 1,
+    "monday.com": 4,
+    "Freshsales": 7,
+    "Brevo": 6,
+    "ActiveCampaign": 5,
+    "GoHighLevel": 8
+  },
+  "order": [
+    "Salesforce",
+    "Pipedrive",
+    "Zoho CRM",
+    "monday.com",
+    "ActiveCampaign",
+    "Brevo",
+    "Freshsales",
+    "GoHighLevel"
+  ],
+  "length": 8,
+  "method": "headings",
+  "hash": "7b80f729b6a371d2",
+  "changed": "2026-10-06",
+  "checked": "2026-10-06"
+}

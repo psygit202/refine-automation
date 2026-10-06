@@ -1,0 +1,34 @@
+{
+  "id": "dupple-startups",
+  "url": "https://dupple.com/learn/best-crm-for-startups",
+  "status": "ok",
+  "http": 200,
+  "title": "Best CRM for Startups in 2026 (Compared, With Real Pricing) | Dupple",
+  "dates": {
+    "modified": "2026-06-16",
+    "published": "2026-06-16"
+  },
+  "ranks": {
+    "folk": 3,
+    "HubSpot": 1,
+    "Pipedrive": 4,
+    "Attio": 2,
+    "Zoho CRM": 6,
+    "Salesforce": 7,
+    "Close": 5
+  },
+  "order": [
+    "HubSpot",
+    "Attio",
+    "folk",
+    "Pipedrive",
+    "Close",
+    "Zoho CRM",
+    "Salesforce"
+  ],
+  "length": 7,
+  "method": "headings",
+  "hash": "4e3cf9a5a31dd6dc",
+  "changed": "2026-10-06",
+  "checked": "2026-10-06"
+}

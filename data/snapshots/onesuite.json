@@ -1,0 +1,34 @@
+{
+  "id": "onesuite",
+  "url": "https://onesuite.io/blog/best-crm-for-b2b-startups/",
+  "status": "ok",
+  "http": 200,
+  "title": "Best CRM for B2B Startups: 7 Tools That Won't Bankrupt You",
+  "dates": {
+    "modified": "2026-04-17",
+    "published": "2026-03-31"
+  },
+  "ranks": {
+    "HubSpot": 3,
+    "Pipedrive": 2,
+    "Attio": 6,
+    "Salesflare": 5,
+    "Copper": 7,
+    "Close": 4,
+    "OneSuite": 1
+  },
+  "order": [
+    "OneSuite",
+    "Pipedrive",
+    "HubSpot",
+    "Close",
+    "Salesflare",
+    "Attio",
+    "Copper"
+  ],
+  "length": 7,
+  "method": "numbered",
+  "hash": "81b9e6f487020ebf",
+  "changed": "2026-10-06",
+  "checked": "2026-10-06"
+}

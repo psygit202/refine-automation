@@ -1,0 +1,34 @@
+{
+  "id": "reevo",
+  "url": "https://reevo.ai/blog/hubspot-alternatives",
+  "status": "ok",
+  "http": 200,
+  "title": "HubSpot Alternatives: 7 CRMs for Startups & SMBs (2026)",
+  "dates": {
+    "modified": "2026-08-25",
+    "published": "2026-08-25"
+  },
+  "ranks": {
+    "Pipedrive": 2,
+    "Zoho CRM": 3,
+    "monday.com": 6,
+    "Freshsales": 4,
+    "Brevo": 7,
+    "Close": 5,
+    "Reevo": 1
+  },
+  "order": [
+    "Reevo",
+    "Pipedrive",
+    "Zoho CRM",
+    "Freshsales",
+    "Close",
+    "monday.com",
+    "Brevo"
+  ],
+  "length": 7,
+  "method": "headings",
+  "hash": "dd90d1963361d155",
+  "changed": "2026-10-06",
+  "checked": "2026-10-06"
+}

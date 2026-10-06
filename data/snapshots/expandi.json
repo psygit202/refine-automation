@@ -1,0 +1,49 @@
+{
+  "id": "expandi",
+  "url": "https://expandi.io/blog/linkedin-crm/",
+  "status": "ok",
+  "http": 200,
+  "title": "15 Best LinkedIn CRM Tools for 2026 (+ Free Options)",
+  "dates": {
+    "modified": "2026-08-18",
+    "published": "2026-08-18"
+  },
+  "ranks": {
+    "folk": 5,
+    "HubSpot": 1,
+    "Pipedrive": 4,
+    "Attio": 9,
+    "Zoho CRM": 6,
+    "Salesforce": 2,
+    "Freshsales": 8,
+    "Breakcold": 12,
+    "Copper": 14,
+    "Close": 7,
+    "Nimble": 10,
+    "LeadDelta": 11,
+    "Microsoft Dynamics 365": 3,
+    "NetHunt": 13
+  },
+  "order": [
+    "HubSpot",
+    "Salesforce",
+    "Microsoft Dynamics 365",
+    "Pipedrive",
+    "folk",
+    "Zoho CRM",
+    "Close",
+    "Freshsales",
+    "Attio",
+    "Nimble",
+    "LeadDelta",
+    "Breakcold",
+    "NetHunt",
+    "Copper",
+    "(other)"
+  ],
+  "length": 15,
+  "method": "numbered",
+  "hash": "731a5d73cfa1d3e6",
+  "changed": "2026-10-06",
+  "checked": "2026-10-06"
+}

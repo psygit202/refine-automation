@@ -1,0 +1,38 @@
+{
+  "id": "digitiz",
+  "url": "https://digitiz.fr/crm-francais/",
+  "status": "ok",
+  "http": 200,
+  "title": "Top 12 des meilleurs CRM français en 2026 (RGPD + IA)",
+  "dates": {
+    "modified": "2026-10-04",
+    "published": "2026-05-06"
+  },
+  "ranks": {
+    "folk": 3,
+    "Sellsy": 5,
+    "Brevo": 6,
+    "noCRM.io": 4,
+    "Axonaut": 1,
+    "Karlia": 7
+  },
+  "order": [
+    "Axonaut",
+    "(other)",
+    "folk",
+    "noCRM.io",
+    "Sellsy",
+    "Brevo",
+    "Karlia",
+    "(other)",
+    "(other)",
+    "(other)",
+    "(other)",
+    "(other)"
+  ],
+  "length": 12,
+  "method": "numbered",
+  "hash": "6a6c0af05a3277b2",
+  "changed": "2026-10-06",
+  "checked": "2026-10-06"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "shine",
+  "url": "https://www.shine.fr/blog/meilleurs-crm-petit-budget/",
+  "status": "ok",
+  "http": 200,
+  "title": "Top 6 des meilleurs CRM pour petits budgets en 2026",
+  "dates": {
+    "modified": "2026-07-06",
+    "published": "2022-12-03"
+  },
+  "ranks": {
+    "HubSpot": 3,
+    "Pipedrive": 1,
+    "Zoho CRM": 5,
+    "Salesforce": 4,
+    "Freshsales": 2,
+    "Sellsy": 6
+  },
+  "order": [
+    "Pipedrive",
+    "Freshsales",
+    "HubSpot",
+    "Salesforce",
+    "Zoho CRM",
+    "Sellsy"
+  ],
+  "length": 6,
+  "method": "numbered",
+  "hash": "6ff55ea47ce0c36c",
+  "changed": "2026-10-06",
+  "checked": "2026-10-06"
+}

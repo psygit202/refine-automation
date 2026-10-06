@@ -1,0 +1,50 @@
+{
+  "id": "rework",
+  "url": "https://resources.rework.com/tools/crm/best-crm-software-2026",
+  "status": "ok",
+  "http": 200,
+  "title": "\"Best CRM Software in 2026: 15 Tools Ranked by Fit\"",
+  "dates": {
+    "modified": "2026-02-23",
+    "published": "2026-02-23"
+  },
+  "ranks": {
+    "folk": 11,
+    "HubSpot": 2,
+    "Pipedrive": 4,
+    "Attio": 10,
+    "Zoho CRM": 5,
+    "Salesforce": 3,
+    "monday.com": 6,
+    "Freshsales": 7,
+    "Copper": 9,
+    "Close": 8,
+    "Nutshell": 12,
+    "Insightly": 13,
+    "Keap": 14,
+    "SugarCRM": 15,
+    "Rework": 1
+  },
+  "order": [
+    "Rework",
+    "HubSpot",
+    "Salesforce",
+    "Pipedrive",
+    "Zoho CRM",
+    "monday.com",
+    "Freshsales",
+    "Close",
+    "Copper",
+    "Attio",
+    "folk",
+    "Nutshell",
+    "Insightly",
+    "Keap",
+    "SugarCRM"
+  ],
+  "length": 15,
+  "method": "numbered",
+  "hash": "ee743b4d09aacdc8",
+  "changed": "2026-10-06",
+  "checked": "2026-10-06"
+}

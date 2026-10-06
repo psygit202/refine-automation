@@ -1,0 +1,23 @@
+{
+  "id": "cognito-choisir",
+  "url": "https://www.hellocognito.fr/blog/comment-choisir-son-crm",
+  "status": "ok",
+  "http": 200,
+  "title": "Choisir son CRM : comparatif Pipedrive, HubSpot, Salesforce",
+  "dates": {
+    "modified": "2026-06-11",
+    "published": "2026-01-15"
+  },
+  "ranks": {
+    "HubSpot": "mentioned",
+    "Pipedrive": 1
+  },
+  "order": [
+    "Pipedrive"
+  ],
+  "length": 1,
+  "method": "headings",
+  "hash": "c7d85e5cd63d41fc",
+  "changed": "2026-10-06",
+  "checked": "2026-10-06"
+}

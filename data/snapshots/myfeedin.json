@@ -1,0 +1,42 @@
+{
+  "id": "myfeedin",
+  "url": "https://myfeedin.co/best-linkedin-chrome-extensions",
+  "status": "ok",
+  "http": 200,
+  "title": "10 Best LinkedIn Chrome Extensions in 2026 (Tested & Ranked)",
+  "dates": {
+    "modified": "2026-09-17",
+    "published": "2026-01-15"
+  },
+  "ranks": {
+    "folk": 5,
+    "HubSpot": "mentioned",
+    "Pipedrive": "mentioned",
+    "Apollo": 10,
+    "Surfe": 7,
+    "Waalaxy": 6,
+    "Lusha": 9,
+    "AuthoredUp": 2,
+    "Taplio": 3,
+    "Reepl": 4,
+    "Evaboot": 8,
+    "MyFeedIn": 1
+  },
+  "order": [
+    "MyFeedIn",
+    "AuthoredUp",
+    "Taplio",
+    "Reepl",
+    "folk",
+    "Waalaxy",
+    "Surfe",
+    "Evaboot",
+    "Lusha",
+    "Apollo"
+  ],
+  "length": 10,
+  "method": "headings",
+  "hash": "75cb61b1209b96ee",
+  "changed": "2026-10-06",
+  "checked": "2026-10-06"
+}

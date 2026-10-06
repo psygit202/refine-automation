@@ -1,0 +1,42 @@
+{
+  "id": "bestcrmforstartups",
+  "url": "https://bestcrmforstartups.com/crm-software",
+  "status": "ok",
+  "http": 200,
+  "title": "Best CRM Software for Startups (2026) | Reviewed & Ranked",
+  "dates": {
+    "modified": "",
+    "published": "2026-10-06"
+  },
+  "ranks": {
+    "folk": 11,
+    "HubSpot": 1,
+    "Pipedrive": 6,
+    "Attio": 7,
+    "Zoho CRM": 9,
+    "Salesforce": 3,
+    "monday.com": 10,
+    "Freshsales": 8,
+    "Salesflare": 4,
+    "Close": 5,
+    "ActiveCampaign": 2
+  },
+  "order": [
+    "HubSpot",
+    "ActiveCampaign",
+    "Salesforce",
+    "Salesflare",
+    "Close",
+    "Pipedrive",
+    "Attio",
+    "Freshsales",
+    "Zoho CRM",
+    "monday.com",
+    "folk"
+  ],
+  "length": 11,
+  "method": "headings",
+  "hash": "1d8c3156c6e463c9",
+  "changed": "2026-10-06",
+  "checked": "2026-10-06"
+}

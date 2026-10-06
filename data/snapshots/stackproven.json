@@ -1,0 +1,27 @@
+{
+  "id": "stackproven",
+  "url": "https://stackproven.com/articles/best-crm-for-agencies-2026",
+  "status": "ok",
+  "http": 200,
+  "title": "Best CRM for a Small Agency (2026) | StackProven",
+  "dates": {
+    "modified": "2026-07-29",
+    "published": "2026-07-29"
+  },
+  "ranks": {
+    "HubSpot": 1,
+    "Pipedrive": "mentioned",
+    "Zoho CRM": 2,
+    "GoHighLevel": 3
+  },
+  "order": [
+    "HubSpot",
+    "Zoho CRM",
+    "GoHighLevel"
+  ],
+  "length": 3,
+  "method": "headings",
+  "hash": "0cbcc3b97895beb7",
+  "changed": "2026-10-06",
+  "checked": "2026-10-06"
+}

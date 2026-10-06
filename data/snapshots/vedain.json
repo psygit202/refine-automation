@@ -1,0 +1,44 @@
+{
+  "id": "vedain",
+  "url": "https://vedain.com/blog/15-hubspot-alternatives-for-small-business-2026-compared",
+  "status": "ok",
+  "http": 200,
+  "title": "15 HubSpot Alternatives for Small Business (2026 Compared)",
+  "dates": {
+    "modified": "2026-09-14",
+    "published": "2026-04-20"
+  },
+  "ranks": {
+    "Pipedrive": 3,
+    "Zoho CRM": 4,
+    "Freshsales": 5,
+    "Brevo": 11,
+    "Nutshell": 15,
+    "Keap": 7,
+    "ActiveCampaign": 2,
+    "EngageBay": 6,
+    "Vedain": 1
+  },
+  "order": [
+    "Vedain",
+    "ActiveCampaign",
+    "Pipedrive",
+    "Zoho CRM",
+    "Freshsales",
+    "EngageBay",
+    "Keap",
+    "(other)",
+    "(other)",
+    "(other)",
+    "Brevo",
+    "(other)",
+    "(other)",
+    "(other)",
+    "Nutshell"
+  ],
+  "length": 15,
+  "method": "numbered",
+  "hash": "33f0f50ebf382e0c",
+  "changed": "2026-10-06",
+  "checked": "2026-10-06"
+}

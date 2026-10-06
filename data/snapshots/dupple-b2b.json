@@ -1,0 +1,36 @@
+{
+  "id": "dupple-b2b",
+  "url": "https://dupple.com/learn/best-crm-for-b2b",
+  "status": "ok",
+  "http": 200,
+  "title": "Best CRM for B2B in 2026: 8 Tools I'd Actually Recommend | Dupple",
+  "dates": {
+    "modified": "2026-06-16",
+    "published": "2026-06-16"
+  },
+  "ranks": {
+    "folk": 8,
+    "HubSpot": 2,
+    "Pipedrive": 3,
+    "Attio": 1,
+    "Zoho CRM": 6,
+    "Salesforce": 4,
+    "Salesflare": 7,
+    "Close": 5
+  },
+  "order": [
+    "Attio",
+    "HubSpot",
+    "Pipedrive",
+    "Salesforce",
+    "Close",
+    "Zoho CRM",
+    "Salesflare",
+    "folk"
+  ],
+  "length": 8,
+  "method": "headings",
+  "hash": "72ba9e34d02ea350",
+  "changed": "2026-10-06",
+  "checked": "2026-10-06"
+}

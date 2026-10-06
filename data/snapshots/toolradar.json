@@ -1,0 +1,36 @@
+{
+  "id": "toolradar",
+  "url": "https://toolradar.com/guides/best-crm-for-marketing-agencies",
+  "status": "ok",
+  "http": 200,
+  "title": "Best CRM for Marketing Agencies 2026: 5 Tools for Client and Pipeline Management",
+  "dates": {
+    "modified": "",
+    "published": ""
+  },
+  "ranks": {
+    "HubSpot": 2,
+    "Pipedrive": 1,
+    "Zoho CRM": 4,
+    "monday.com": 6,
+    "Freshsales": 7,
+    "Copper": 5,
+    "Insightly": 3,
+    "Capsule": 8
+  },
+  "order": [
+    "Pipedrive",
+    "HubSpot",
+    "Insightly",
+    "Zoho CRM",
+    "Copper",
+    "monday.com",
+    "Freshsales",
+    "Capsule"
+  ],
+  "length": 8,
+  "method": "headings",
+  "hash": "79234aaabd04b77b",
+  "changed": "2026-10-06",
+  "checked": "2026-10-06"
+}

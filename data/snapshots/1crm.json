@@ -1,0 +1,28 @@
+{
+  "id": "1crm",
+  "url": "https://1crm.com/best-crm-for-small-business/",
+  "status": "ok",
+  "http": 200,
+  "title": "The Best CRM for Small Business in 2026: An Honest Comparison",
+  "dates": {
+    "modified": "2026-05-20",
+    "published": "2026-05-20"
+  },
+  "ranks": {
+    "HubSpot": 2,
+    "Pipedrive": 4,
+    "Zoho CRM": 3,
+    "1CRM": 1
+  },
+  "order": [
+    "1CRM",
+    "HubSpot",
+    "Zoho CRM",
+    "Pipedrive"
+  ],
+  "length": 4,
+  "method": "headings",
+  "hash": "1a983aaaa7cb0f79",
+  "changed": "2026-10-06",
+  "checked": "2026-10-06"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "cognito-startup",
+  "url": "https://www.hellocognito.fr/blog/crm-startup",
+  "status": "ok",
+  "http": 200,
+  "title": "CRM pour startup : quel outil choisir en 2026 ? (guide terrain)",
+  "dates": {
+    "modified": "2026-08-06",
+    "published": "2026-08-06"
+  },
+  "ranks": {
+    "HubSpot": "mentioned",
+    "Pipedrive": "mentioned"
+  },
+  "order": [],
+  "length": 0,
+  "method": "headings",
+  "hash": "bede5c192631d2a9",
+  "changed": "2026-10-06",
+  "checked": "2026-10-06"
+}
