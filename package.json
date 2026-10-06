@@ -1,0 +1,18 @@
+{
+  "name": "refine-automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Weekly watch of the pages AI assistants cite for a company's buyer prompts: ranks on cited lists, and the prices quoted in outreach.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.mjs\"",
+    "watch": "node src/watch.mjs",
+    "issues": "node src/issues.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.63.0"
+  }
+}

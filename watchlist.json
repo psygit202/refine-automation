@@ -1,0 +1,844 @@
+{
+  "client": {
+    "name": "folk",
+    "aliases": [
+      "Folk",
+      "folk CRM",
+      "Folk CRM",
+      "folkX"
+    ]
+  },
+  "competitors": [
+    "Attio",
+    "Pipedrive",
+    "HubSpot"
+  ],
+  "baseline_date": "2026-10-06",
+  "brands": [
+    {
+      "name": "HubSpot",
+      "aliases": [
+        "HubSpot CRM",
+        "Hubspot",
+        "HubSpot Sales Hub"
+      ]
+    },
+    {
+      "name": "Pipedrive"
+    },
+    {
+      "name": "Attio"
+    },
+    {
+      "name": "Zoho CRM",
+      "aliases": [
+        "Zoho",
+        "Bigin by Zoho",
+        "Zoho Bigin",
+        "Bigin"
+      ]
+    },
+    {
+      "name": "Salesforce",
+      "aliases": [
+        "Salesforce Starter",
+        "Salesforce Sales Cloud",
+        "Salesforce Starter Suite"
+      ]
+    },
+    {
+      "name": "monday.com",
+      "aliases": [
+        "monday sales CRM",
+        "Monday.com",
+        "monday CRM",
+        "Monday Sales CRM",
+        "monday.com CRM",
+        "Monday CRM",
+        "Monday"
+      ]
+    },
+    {
+      "name": "Freshsales",
+      "aliases": [
+        "Freshworks CRM",
+        "Freshworks"
+      ]
+    },
+    {
+      "name": "Sellsy"
+    },
+    {
+      "name": "Salesflare"
+    },
+    {
+      "name": "Brevo",
+      "aliases": [
+        "Brevo CRM"
+      ]
+    },
+    {
+      "name": "Breakcold"
+    },
+    {
+      "name": "Copper",
+      "aliases": [
+        "Copper CRM"
+      ],
+      "start_only": true
+    },
+    {
+      "name": "Close",
+      "aliases": [
+        "Close CRM",
+        "Close.com",
+        "Close.io"
+      ],
+      "start_only": true
+    },
+    {
+      "name": "Nutshell"
+    },
+    {
+      "name": "Insightly"
+    },
+    {
+      "name": "Keap"
+    },
+    {
+      "name": "ActiveCampaign"
+    },
+    {
+      "name": "EngageBay"
+    },
+    {
+      "name": "Agile CRM"
+    },
+    {
+      "name": "Capsule",
+      "aliases": [
+        "Capsule CRM"
+      ],
+      "start_only": true
+    },
+    {
+      "name": "Less Annoying CRM"
+    },
+    {
+      "name": "Streak",
+      "start_only": true
+    },
+    {
+      "name": "Nimble",
+      "start_only": true
+    },
+    {
+      "name": "Apollo",
+      "aliases": [
+        "Apollo.io"
+      ],
+      "start_only": true
+    },
+    {
+      "name": "LeadDelta"
+    },
+    {
+      "name": "Surfe"
+    },
+    {
+      "name": "Dex",
+      "start_only": true
+    },
+    {
+      "name": "noCRM.io",
+      "aliases": [
+        "noCRM"
+      ]
+    },
+    {
+      "name": "Axonaut"
+    },
+    {
+      "name": "Karlia"
+    },
+    {
+      "name": "Teamleader",
+      "aliases": [
+        "Teamleader Focus"
+      ]
+    },
+    {
+      "name": "Microsoft Dynamics 365",
+      "aliases": [
+        "Dynamics 365",
+        "Microsoft Dynamics"
+      ]
+    },
+    {
+      "name": "Odoo",
+      "aliases": [
+        "Odoo CRM"
+      ]
+    },
+    {
+      "name": "Bitrix24"
+    },
+    {
+      "name": "SugarCRM"
+    },
+    {
+      "name": "Zendesk Sell"
+    },
+    {
+      "name": "Salesmate"
+    },
+    {
+      "name": "Vtiger"
+    },
+    {
+      "name": "Creatio"
+    },
+    {
+      "name": "Pipeline CRM"
+    },
+    {
+      "name": "NetHunt",
+      "aliases": [
+        "NetHunt CRM"
+      ]
+    },
+    {
+      "name": "GoHighLevel",
+      "aliases": [
+        "HighLevel"
+      ]
+    },
+    {
+      "name": "Twenty",
+      "aliases": [
+        "Twenty CRM"
+      ],
+      "start_only": true
+    },
+    {
+      "name": "Clay",
+      "start_only": true
+    },
+    {
+      "name": "Affinity",
+      "start_only": true
+    },
+    {
+      "name": "Notion",
+      "start_only": true
+    },
+    {
+      "name": "Airtable"
+    },
+    {
+      "name": "ClickUp"
+    },
+    {
+      "name": "Productive",
+      "aliases": [
+        "Productive.io"
+      ],
+      "start_only": true
+    },
+    {
+      "name": "Teamwork",
+      "aliases": [
+        "Teamwork.com"
+      ],
+      "start_only": true
+    },
+    {
+      "name": "HoneyBook"
+    },
+    {
+      "name": "Dubsado"
+    },
+    {
+      "name": "Waalaxy"
+    },
+    {
+      "name": "lemlist"
+    },
+    {
+      "name": "Lusha"
+    },
+    {
+      "name": "Kaspr"
+    },
+    {
+      "name": "Dux-Soup"
+    },
+    {
+      "name": "Octopus CRM"
+    },
+    {
+      "name": "Wiza"
+    },
+    {
+      "name": "Fluid CRM"
+    },
+    {
+      "name": "Agiled"
+    },
+    {
+      "name": "Lightfield"
+    },
+    {
+      "name": "AuthoredUp"
+    },
+    {
+      "name": "Taplio"
+    },
+    {
+      "name": "Reepl"
+    },
+    {
+      "name": "Evaboot"
+    },
+    {
+      "name": "MyFeedIn"
+    },
+    {
+      "name": "Expandi"
+    },
+    {
+      "name": "Rework"
+    }
+  ],
+  "pages": [
+    {
+      "id": "dupple-b2b",
+      "type": "list",
+      "publisher": "Dupple",
+      "url": "https://dupple.com/learn/best-crm-for-b2b",
+      "lang": "en",
+      "priority": true,
+      "why": "Most-cited third-party page in the audit (5 answers); every answer citing it stopped before folk.",
+      "baseline": {
+        "folk": 8,
+        "Attio": 1,
+        "Pipedrive": 3
+      }
+    },
+    {
+      "id": "dupple-startups",
+      "type": "list",
+      "publisher": "Dupple",
+      "url": "https://dupple.com/learn/best-crm-for-startups",
+      "lang": "en",
+      "priority": true,
+      "why": "Ranks folk #3; the Perplexity answer that cited it named folk.",
+      "baseline": {
+        "folk": 3,
+        "Attio": 2,
+        "Pipedrive": 4
+      }
+    },
+    {
+      "id": "bestcrmforstartups",
+      "type": "list",
+      "publisher": "BestCRMforStartups",
+      "url": "https://bestcrmforstartups.com/crm-software",
+      "lang": "en",
+      "priority": true,
+      "why": "folk last of 11.",
+      "baseline": {
+        "folk": 11,
+        "Attio": 6,
+        "Pipedrive": 5
+      }
+    },
+    {
+      "id": "rework",
+      "type": "list",
+      "publisher": "Rework",
+      "url": "https://resources.rework.com/tools/crm/best-crm-software-2026",
+      "lang": "en",
+      "priority": true,
+      "why": "folk #11 of 15.",
+      "baseline": {
+        "folk": 11,
+        "Attio": 10,
+        "Pipedrive": 4
+      }
+    },
+    {
+      "id": "saasradar",
+      "type": "list",
+      "publisher": "SaaS Radar",
+      "url": "https://www.saasradar.fr/blog/meilleur-crm-pme-freelance-2026",
+      "lang": "fr",
+      "priority": true,
+      "why": "French list, folk last (#6 of 6).",
+      "baseline": {
+        "folk": 6,
+        "Pipedrive": 2
+      }
+    },
+    {
+      "id": "zapier",
+      "type": "list",
+      "publisher": "Zapier",
+      "url": "https://zapier.com/blog/best-crm-app/",
+      "lang": "en",
+      "priority": true,
+      "why": "High-authority list that names Attio and Pipedrive but not folk.",
+      "baseline": {
+        "folk": "No"
+      }
+    },
+    {
+      "id": "forbes-hubspot-alternatives",
+      "type": "list",
+      "publisher": "Forbes Advisor",
+      "url": "https://www.forbes.com/advisor/business/software/hubspot-alternatives/",
+      "lang": "en",
+      "priority": true,
+      "why": "High-authority HubSpot-alternatives list without folk.",
+      "baseline": {
+        "folk": "No"
+      },
+      "subject": "HubSpot"
+    },
+    {
+      "id": "toolgrowth",
+      "type": "list",
+      "publisher": "ToolGrowth",
+      "url": "https://toolgrowth.com/best-hubspot-alternatives/",
+      "lang": "en",
+      "priority": true,
+      "why": "Cited by ChatGPT on HubSpot alternatives; no folk.",
+      "baseline": {
+        "folk": "No",
+        "Pipedrive": 2
+      },
+      "subject": "HubSpot"
+    },
+    {
+      "id": "techsifted",
+      "type": "list",
+      "publisher": "TechSifted",
+      "url": "https://techsifted.com/comparisons/hubspot-alternative-2026/",
+      "lang": "en",
+      "priority": true,
+      "why": "Cited by ChatGPT on HubSpot alternatives; no folk.",
+      "baseline": {
+        "folk": "No",
+        "Pipedrive": 2
+      },
+      "subject": "HubSpot"
+    },
+    {
+      "id": "layer3labs",
+      "type": "list",
+      "publisher": "Layer3Labs",
+      "url": "https://www.layer3labs.io/comparisons/hubspot-alternatives",
+      "lang": "en",
+      "priority": true,
+      "why": "Cited by Gemini on HubSpot alternatives; no folk.",
+      "baseline": {
+        "folk": "No",
+        "Pipedrive": 3
+      },
+      "subject": "HubSpot"
+    },
+    {
+      "id": "cognito-choisir",
+      "type": "list",
+      "publisher": "Hello Cognito",
+      "url": "https://www.hellocognito.fr/blog/comment-choisir-son-crm",
+      "lang": "fr",
+      "priority": true,
+      "why": "Partner that implements folk, yet its guide cited by ChatGPT leaves folk out.",
+      "baseline": {
+        "folk": "No",
+        "Pipedrive": 1
+      }
+    },
+    {
+      "id": "cognito-startup",
+      "type": "list",
+      "publisher": "Hello Cognito",
+      "url": "https://www.hellocognito.fr/blog/crm-startup",
+      "lang": "fr",
+      "priority": true,
+      "why": "Second Cognito guide cited by ChatGPT; no folk.",
+      "baseline": {
+        "folk": "No"
+      }
+    },
+    {
+      "id": "implemence",
+      "type": "list",
+      "publisher": "Implemence",
+      "url": "https://www.implemence.fr/quel-crm-choisir",
+      "lang": "fr",
+      "priority": true,
+      "why": "French list cited by Gemini; no folk.",
+      "baseline": {
+        "folk": "No",
+        "Attio": 6,
+        "Pipedrive": 3
+      }
+    },
+    {
+      "id": "independant-io",
+      "type": "list",
+      "publisher": "independant.io",
+      "url": "https://independant.io/crm-francais/",
+      "lang": "fr",
+      "priority": true,
+      "why": "French list cited by Gemini; no folk.",
+      "baseline": {
+        "folk": "No"
+      }
+    },
+    {
+      "id": "digitiz",
+      "type": "list",
+      "publisher": "Digitiz",
+      "url": "https://digitiz.fr/crm-francais/",
+      "lang": "fr",
+      "priority": true,
+      "why": "The only French list with folk in its top 3; cited in both Gemini answers naming folk.",
+      "baseline": {
+        "folk": 3
+      }
+    },
+    {
+      "id": "crm-org",
+      "type": "list",
+      "publisher": "CRM.org",
+      "url": "https://crm.org/crmland/best-crm-for-startups",
+      "lang": "en",
+      "baseline": {
+        "folk": "No"
+      }
+    },
+    {
+      "id": "onesuite",
+      "type": "list",
+      "publisher": "OneSuite",
+      "url": "https://onesuite.io/blog/best-crm-for-b2b-startups/",
+      "lang": "en",
+      "baseline": {
+        "folk": "No",
+        "Attio": 6,
+        "Pipedrive": 2
+      }
+    },
+    {
+      "id": "dench",
+      "type": "list",
+      "publisher": "Dench",
+      "url": "https://www.dench.com/blog/best-crm-for-b2b-startups",
+      "lang": "en",
+      "baseline": {
+        "folk": "No",
+        "Attio": 4,
+        "Pipedrive": 3
+      }
+    },
+    {
+      "id": "smashsend",
+      "type": "list",
+      "publisher": "SMASHSEND",
+      "url": "https://smashsend.com/blog/best-crm-for-saas-startups",
+      "lang": "en",
+      "baseline": {
+        "folk": "No",
+        "Attio": 9,
+        "Pipedrive": 4
+      }
+    },
+    {
+      "id": "1crm",
+      "type": "list",
+      "publisher": "1CRM",
+      "url": "https://1crm.com/best-crm-for-small-business/",
+      "lang": "en",
+      "vendor": true,
+      "baseline": {
+        "folk": "No",
+        "Pipedrive": 4
+      }
+    },
+    {
+      "id": "tomba",
+      "type": "list",
+      "publisher": "tomba.io",
+      "url": "https://tomba.io/blog/hubspot-alternatives",
+      "lang": "en",
+      "baseline": {
+        "folk": "No",
+        "Attio": 4,
+        "Pipedrive": 1
+      },
+      "subject": "HubSpot"
+    },
+    {
+      "id": "fluidcrm",
+      "type": "list",
+      "publisher": "Fluid CRM",
+      "url": "https://fluidcrm.io/blog/hubspot-alternatives-for-small-business/",
+      "lang": "en",
+      "vendor": true,
+      "baseline": {
+        "folk": 6,
+        "Pipedrive": 2
+      },
+      "subject": "HubSpot"
+    },
+    {
+      "id": "reevo",
+      "type": "list",
+      "publisher": "Reevo",
+      "url": "https://reevo.ai/blog/hubspot-alternatives",
+      "lang": "en",
+      "vendor": true,
+      "baseline": {
+        "folk": "No",
+        "Pipedrive": 2
+      },
+      "subject": "HubSpot"
+    },
+    {
+      "id": "tribecrm",
+      "type": "list",
+      "publisher": "Tribe CRM",
+      "url": "https://tribecrm.eu/blog/what-are-the-best-alternatives-to-hubspot/",
+      "lang": "en",
+      "vendor": true,
+      "baseline": {
+        "folk": "No",
+        "Pipedrive": 2
+      },
+      "subject": "HubSpot"
+    },
+    {
+      "id": "vedain",
+      "type": "list",
+      "publisher": "Vedain",
+      "url": "https://vedain.com/blog/15-hubspot-alternatives-for-small-business-2026-compared",
+      "lang": "en",
+      "vendor": true,
+      "subject": "HubSpot",
+      "baseline": {
+        "folk": "No",
+        "Pipedrive": 3
+      }
+    },
+    {
+      "id": "leanb2btools",
+      "type": "list",
+      "publisher": "LeanB2BTools",
+      "url": "https://leanb2btools.com/tools/hubspot-alternatives-small-b2b-teams-2026/",
+      "lang": "en",
+      "baseline": {
+        "folk": "No",
+        "Pipedrive": 1
+      },
+      "subject": "HubSpot"
+    },
+    {
+      "id": "expandi",
+      "type": "list",
+      "publisher": "Expandi",
+      "url": "https://expandi.io/blog/linkedin-crm/",
+      "lang": "en",
+      "why": "LinkedIn CRM list; folk #5.",
+      "baseline": {
+        "folk": 5,
+        "Attio": 9,
+        "Pipedrive": 4
+      }
+    },
+    {
+      "id": "myfeedin",
+      "type": "list",
+      "publisher": "MyFeedIn",
+      "url": "https://myfeedin.co/best-linkedin-chrome-extensions",
+      "lang": "en",
+      "baseline": {
+        "folk": 5
+      }
+    },
+    {
+      "id": "productive",
+      "type": "list",
+      "publisher": "Productive.io",
+      "url": "https://productive.io/blog/crm-for-agencies/",
+      "lang": "en",
+      "baseline": {
+        "folk": "No",
+        "Pipedrive": 13
+      }
+    },
+    {
+      "id": "functionfox",
+      "type": "list",
+      "publisher": "Function Fox",
+      "url": "https://functionfox.com/7-best-agency-crm-software-that-actually-boost-client-growth/",
+      "lang": "en",
+      "baseline": {
+        "folk": "No",
+        "Pipedrive": 3
+      }
+    },
+    {
+      "id": "slack",
+      "type": "list",
+      "publisher": "Slack",
+      "url": "https://slack.com/blog/crm/best-crm-for-small-business",
+      "lang": "en",
+      "baseline": {
+        "folk": "No",
+        "Pipedrive": 5
+      }
+    },
+    {
+      "id": "stackproven",
+      "type": "list",
+      "publisher": "StackProven",
+      "url": "https://stackproven.com/articles/best-crm-for-agencies-2026",
+      "lang": "en",
+      "baseline": {
+        "folk": "No"
+      }
+    },
+    {
+      "id": "toolradar",
+      "type": "list",
+      "publisher": "Toolradar",
+      "url": "https://toolradar.com/guides/best-crm-for-marketing-agencies",
+      "lang": "en",
+      "baseline": {
+        "folk": "No"
+      }
+    },
+    {
+      "id": "revenueflow",
+      "type": "list",
+      "publisher": "RevenueFlow",
+      "url": "https://www.revenueflow.com/blog/best-crm-tools-for-marketing-agencies",
+      "lang": "en",
+      "baseline": {
+        "folk": "No"
+      }
+    },
+    {
+      "id": "croclub",
+      "type": "list",
+      "publisher": "CROClub",
+      "url": "https://croclub.com/tools/best-crm-software-startups/",
+      "lang": "en",
+      "baseline": {
+        "folk": "No"
+      }
+    },
+    {
+      "id": "shine",
+      "type": "list",
+      "publisher": "Shine",
+      "url": "https://www.shine.fr/blog/meilleurs-crm-petit-budget/",
+      "lang": "fr",
+      "baseline": {
+        "folk": "No",
+        "Pipedrive": 1
+      }
+    },
+    {
+      "id": "folk-vs-hubspot",
+      "type": "owned",
+      "publisher": "folk",
+      "url": "https://folk.app/comparison/hubspot-alternative",
+      "lang": "en",
+      "priority": true,
+      "why": "folk's own HubSpot comparison page: never cited in the 8 HubSpot-alternatives answers; undated and showing old prices.",
+      "facts": [
+        {
+          "id": "premium-shown",
+          "label": "folk Premium price shown (folk's pricing page says $48 billed yearly)",
+          "pattern": "Price\\s*\\$\\d+ / seat / month\\s*\\$\\d+ / seat / month\\s*\\$(\\d+) / seat / month",
+          "expected": "50",
+          "used_in": "LinkedIn message 3; slide 4"
+        },
+        {
+          "id": "hubspot-starter-shown",
+          "label": "HubSpot Starter price shown (HubSpot advertises $7 billed annually)",
+          "pattern": "Price\\s*\\$(\\d+) / seat / month",
+          "expected": "20",
+          "used_in": "Slide 4 footnote"
+        },
+        {
+          "id": "standard-plan-mentioned",
+          "label": "Mentions folk's $24 Standard plan",
+          "pattern": "(Standard plan|Standard\\s*\\$\\d+)",
+          "expect": "absent",
+          "used_in": "LinkedIn message 3"
+        }
+      ]
+    },
+    {
+      "id": "folk-pricing",
+      "type": "facts",
+      "publisher": "folk",
+      "url": "https://www.folk.app/pricing",
+      "lang": "en",
+      "facts": [
+        {
+          "id": "folk-standard",
+          "label": "folk Standard, per member per month, billed yearly",
+          "pattern": "Standard[^$]{0,30}\\$(\\d+)[^/]{0,15}/member/month",
+          "expected": "24",
+          "used_in": "LinkedIn message 3; slide 4"
+        },
+        {
+          "id": "folk-premium",
+          "label": "folk Premium, per member per month, billed yearly",
+          "pattern": "Premium[^$]{0,30}\\$(\\d+)[^/]{0,15}/member/month",
+          "expected": "48",
+          "used_in": "Slide 4 footnote"
+        }
+      ]
+    },
+    {
+      "id": "hubspot-sales-pricing",
+      "type": "facts",
+      "publisher": "HubSpot",
+      "url": "https://www.hubspot.com/pricing/sales",
+      "lang": "en",
+      "render": true,
+      "facts": [
+        {
+          "id": "hubspot-starter",
+          "label": "HubSpot Sales Hub Starter, from, per seat per month, billed annually",
+          "pattern": "Starter[\\s\\S]{0,400}?Starts at\\s*(\\D{0,3}[\\d,]+)/mo/seat",
+          "expected": "$7",
+          "used_in": "Slide 4; doc Priority 1"
+        },
+        {
+          "id": "hubspot-pro",
+          "label": "HubSpot Sales Hub Professional, from, per seat per month, billed annually",
+          "pattern": "Professional[\\s\\S]{0,400}?Starts at\\s*(\\D{0,3}[\\d,]+)/mo/seat",
+          "expected": "$90",
+          "used_in": "LinkedIn message 3; slide 4"
+        },
+        {
+          "id": "hubspot-pro-onboarding",
+          "label": "HubSpot Professional one-time onboarding fee",
+          "pattern": "Professional Onboarding for a fee of (\\D{0,3}[\\d,]+)",
+          "expected": "$1,500",
+          "used_in": "LinkedIn message 3; slide 4"
+        }
+      ],
+      "wait_for": "Starts at",
+      "note": "HubSpot localises prices by IP. GitHub's US runners see USD; from another country the value shows that currency and is flagged as changed."
+    }
+  ]
+}
