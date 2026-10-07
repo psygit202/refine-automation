@@ -4,5 +4,10 @@
   "status": "blocked",
   "http": 403,
   "changed": "2026-10-06",
-  "checked": "2026-10-06"
+  "checked": "2026-10-06",
+  "last_failure": {
+    "date": "2026-10-07",
+    "status": "blocked",
+    "http": 403
+  }
 }
