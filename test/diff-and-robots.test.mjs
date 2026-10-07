@@ -44,6 +44,15 @@ test('facts: a changed price quoted in outreach is high severity', () => {
   assert.match(e.action, /message 3/);
 });
 
+test('facts: editing the expected value in the watchlist raises an alert even if the page did not change', () => {
+  const pg = { id: 'hubspot', type: 'facts', publisher: 'HubSpot', url: 'https://h' };
+  const prev = { status: 'ok', dates: {}, facts: [{ id: 'pro', value: '$90', ok: true }] };
+  const now = { status: 'ok', dates: {}, facts: [{ id: 'pro', label: 'Pro', value: '$90', expected: '$95', ok: false, used_in: 'message 3' }] };
+  assert.equal(diffPage(pg, prev, now, cfg)[0].kind, 'fact-check');
+  // Still wrong the week after, same value: no new alert (the open issue stands).
+  assert.equal(diffPage(pg, { ...now }, now, cfg).length, 0);
+});
+
 test('a page that becomes blocked is reported once, without touching ranks', () => {
   const ev = diffPage(list, snap({ folk: 8 }), { status: 'blocked', http: 403 }, cfg);
   assert.deepEqual(ev.map((e) => e.kind), ['fetch']);

@@ -55,7 +55,9 @@ export function diffPage(page, prev, snap, cfg) {
   }
   for (const f of snap.facts || []) {
     const old = prev && (prev.facts || []).find((x) => x.id === f.id);
-    const changed = old ? old.value !== f.value : !f.ok;
+    // Alert when the page's value moves, or when it no longer matches the value quoted in outreach
+    // (also after someone edits `expected` in watchlist.json).
+    const changed = old ? old.value !== f.value || (old.ok !== false && !f.ok) : !f.ok;
     if (!changed) continue;
     events.push({
       key: `${page.id}:fact:${f.id}`, kind: 'fact-check', severity: f.used_in ? 'high' : 'medium', page: page.id, publisher: page.publisher, url: page.url,

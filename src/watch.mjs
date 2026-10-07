@@ -52,11 +52,13 @@ const results = await pool(pages, 4, async (page) => {
   const prev = existsSync(file) ? JSON.parse(readFileSync(file, 'utf8')) : null;
   // A page that fails this week keeps its last good snapshot, so next week compares against real data.
   const events = diffPage(page, prev, snap, cfg);
+  // Snapshots only change when the page does, so the git history of data/snapshots is the change log.
+  // (The run date of every reading is in data/history.csv.)
   if (snap.status === 'ok') {
-    const same = prev && JSON.stringify({ ...prev, checked: undefined, changed: undefined }) === JSON.stringify({ ...snap, checked: undefined, changed: undefined });
-    writeFileSync(file, JSON.stringify({ ...snap, changed: same ? prev.changed : runDate, checked: runDate }, null, 2) + '\n');
+    const same = prev && prev.status === 'ok' && JSON.stringify({ ...prev, changed: undefined, checked: undefined, last_failure: undefined }) === JSON.stringify({ ...snap, changed: undefined });
+    writeFileSync(file, JSON.stringify({ ...snap, changed: same ? prev.changed : runDate }, null, 2) + '\n');
   } else if (!prev) {
-    writeFileSync(file, JSON.stringify({ ...snap, changed: runDate, checked: runDate }, null, 2) + '\n');
+    writeFileSync(file, JSON.stringify({ ...snap, changed: runDate }, null, 2) + '\n');
   } else {
     writeFileSync(file, JSON.stringify({ ...prev, last_failure: { date: runDate, status: snap.status, http: snap.http } }, null, 2) + '\n');
   }
