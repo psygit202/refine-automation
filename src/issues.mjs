@@ -30,8 +30,8 @@ const report = `${server}/${repo}/blob/${sha || 'main'}/REPORT.md`;
 const body = (e) => [
   marker(e.key), `**${e.title}**`, '',
   `- Page: [${e.publisher}](${e.url})`, `- Before: ${e.before}`, `- Now: ${e.after}`, `- Seen: ${run.date}`,
-  e.action ? `- Next step: ${e.action}` : '', '', `Full table: [REPORT.md](${report})`,
-].filter((l) => l !== '').join('\n');
+  ...(e.action ? [`- Next step: ${e.action}`] : []), '', `Full table: [REPORT.md](${report})`,
+].join('\n');
 // "hook" = something to mention in outreach: the client moved on a cited list, or the client changed its own page.
 const labelsFor = (e) => ['source-watch', e.kind === 'fact-check' ? 'fact-check' : 'rank-change', ...(e.kind === 'client-rank' || (e.kind === 'fact-check' && e.publisher === cfg.client.name) ? ['hook'] : [])];
 
