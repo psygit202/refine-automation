@@ -8,9 +8,9 @@ You are a senior growth engineer at Refine, a Paris company that helps B2B SaaS 
 
 ## Context
 
-**The audit (6 Oct 2026).** folk, a Paris CRM, was audited against Attio and Pipedrive across ChatGPT, Gemini and Perplexity: 40 answers to 6 buyer prompts, every brand and cited source logged, and 37 cited third-party pages opened. Findings:
+**The audit (6 Oct 2026).** folk, a Paris CRM, was audited against Attio and Pipedrive across ChatGPT, Gemini and Perplexity: 37 answers to 5 buyer prompts, every brand and cited source logged, and 37 cited third-party pages opened. Findings:
 - folk appears in 7 of 30 category answers (Pipedrive in 30 of 30) and in 0 of 8 "HubSpot alternatives" answers.
-- Where folk has a specific page to cite, it wins: #1 in 6 of 7 LinkedIn answers, and named in 3 of 3 "Attio alternatives" answers.
+- Where folk has a specific page to cite, it wins: #1 in 6 of 7 LinkedIn answers, where a folk.app page was cited every time.
 - Lists set the cut-off. Dupple, the most-cited list, ranks folk #8 of 8, and every answer citing it stopped before folk. SaaS Radar ranks folk #6 of 6. folk is on 9 of 37 cited pages; Pipedrive is on 33.
 
 The raw data is in `folk_ai_visibility_audit.xlsx`: the Answers sheet, and the Cited pages sheet with folk, Attio and Pipedrive ranks per page.
@@ -27,7 +27,7 @@ The raw data is in `folk_ai_visibility_audit.xlsx`: the Answers sheet, and the C
 5. Scores the answers and picks hooks by rule.
 6. Drafts the LinkedIn sequence into Google Sheets.
 
-A weekly batch audits up to 35 prospects and costs about $8 per audit.
+A weekly batch audits up to 35 prospects and costs about $6.70 per audit.
 
 ## Step 1: Decide
 
@@ -108,7 +108,7 @@ Push to `main` on https://github.com/psygit202/refine-automation. Then report:
 
 | Candidate | 1. Not a duplicate | 2. Moves the plan now | 3. GitHub fit | 4. Cost / secrets | 5. Ship in a session | Total |
 |---|---|---|---|---|---|---|
-| A. Port the n8n audit to GitHub Actions | 1 | 3 | 3 | 1 (4 API keys, about $8 per audit) | 3 | 11 |
+| A. Port the n8n audit to GitHub Actions | 1 | 3 | 3 | 1 (4 API keys, about $6.70 per audit) | 3 | 11 |
 | **B. Source watch: cited lists + facts quoted in outreach** | **5** | **5** | **5** | **5** ($0, no keys) | **4** | **24** |
 | C. Prospect-signal feed (new "vs" / "alternative" pages in French SaaS sitemaps) | 4 | 3 | 4 | 5 | 4 | 20 |
 | D. GEO linter in a client's website repository (dates, price tables, FAQ schema, llms.txt on every PR) | 5 | 2 | 5 | 5 | 3 | 20 |

@@ -9,7 +9,7 @@ It was chosen with [PROMPT.md](PROMPT.md), the prompt that decides and builds th
 | Watches | What the AI assistants **answer** | The **sources** those answers cite |
 | Question it answers | Is the prospect visible? (prospecting) | Did the fixes land, and are our facts still true? (follow-up and delivery) |
 | Output | Score, hooks and drafted LinkedIn messages in Google Sheets | `REPORT.md`, a weekly history, and GitHub issues |
-| Cost | About $8 per audit, 4 API keys | $0, no keys |
+| Cost | About $6.70 per audit, 4 API keys | $0, no keys |
 
 ## What it watches for folk
 
