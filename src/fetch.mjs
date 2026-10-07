@@ -68,6 +68,11 @@ async function render(url, timeout, waitFor) {
 }
 export async function closeBrowser() { if (browser) await browser.close(); browser = null; }
 
+export const isChallenge = ({ http, html = '', text }) => {
+  const visible = (text ?? String(html).replace(/<(script|style)[\s\S]*?<\/\1>/gi, ' ').replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ').trim();
+  return http === 202 || visible.length < 200 || /^(just a moment|attention required|access denied|verifying you are human)/i.test(visible);
+};
+
 // Returns { status: ok | blocked | gone | error | robots, http, html, text? }.
 export async function getPage(url, { render: useBrowser = false, waitFor = '', timeout = 30000, tries = 2 } = {}) {
   if (!(await allowedByRobots(url))) return { status: 'robots', http: 0, html: '' };
@@ -78,7 +83,8 @@ export async function getPage(url, { render: useBrowser = false, waitFor = '', t
         ? await render(url, timeout, waitFor)
         : await fetch(url, { headers: { 'user-agent': UA, accept: 'text/html,application/xhtml+xml' }, redirect: 'follow', signal: AbortSignal.timeout(timeout) })
           .then(async (res) => ({ http: res.status, html: await res.text() }));
-      if (r.http >= 200 && r.http < 300) return { status: 'ok', ...r };
+      // Bot walls often answer 202 or 200 with an empty or near-empty page; that is not a reading.
+      if (r.http >= 200 && r.http < 300) return isChallenge(r) ? { status: 'blocked', http: r.http, html: '' } : { status: 'ok', ...r };
       last = { status: [401, 403, 429].includes(r.http) ? 'blocked' : [404, 410].includes(r.http) ? 'gone' : 'error', http: r.http, html: '' };
       if (last.status !== 'error') return last;
     } catch (e) {

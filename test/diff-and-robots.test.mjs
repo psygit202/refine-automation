@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { diffPage } from '../src/diff.mjs';
-import { robotsAllows } from '../src/fetch.mjs';
+import { robotsAllows, isChallenge } from '../src/fetch.mjs';
 import { renderReport } from '../src/report.mjs';
 
 const cfg = { client: { name: 'folk' }, competitors: ['Attio', 'Pipedrive', 'HubSpot'], baseline_date: '2026-10-06', brands: [] };
@@ -64,6 +64,13 @@ test('robots.txt: bot group beats *, longest rule wins, empty Disallow allows', 
   assert.equal(robotsAllows(txt, '/blog/crm-guide'), true);
   assert.equal(robotsAllows('User-agent: refine-source-watch\nDisallow:\n\nUser-agent: *\nDisallow: /', '/a'), true);
   assert.equal(robotsAllows('', '/a'), true);
+});
+
+test('bot walls are "blocked", not an empty list', () => {
+  assert.equal(isChallenge({ http: 202, html: '' }), true);
+  assert.equal(isChallenge({ http: 200, html: '<html><body><script>x</script></body></html>' }), true);
+  assert.equal(isChallenge({ http: 200, text: 'Just a moment... checking your browser ' + 'x'.repeat(300) }), true);
+  assert.equal(isChallenge({ http: 200, html: '<article><h2>1. Pipedrive</h2><p>' + 'word '.repeat(80) + '</p></article>' }), false);
 });
 
 test('report renders the fact table and the list table', () => {
