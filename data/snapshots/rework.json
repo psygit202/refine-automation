@@ -10,11 +10,11 @@
   },
   "ranks": {
     "folk": 11,
-    "HubSpot": 2,
+    "HubSpot": 1,
     "Pipedrive": 4,
     "Attio": 10,
     "Zoho CRM": 5,
-    "Salesforce": 3,
+    "Salesforce": 2,
     "monday.com": 6,
     "Freshsales": 7,
     "Copper": 9,
@@ -23,12 +23,12 @@
     "Insightly": 13,
     "Keap": 14,
     "SugarCRM": 15,
-    "Rework": 1
+    "Rework": 3
   },
   "order": [
-    "Rework",
     "HubSpot",
     "Salesforce",
+    "Rework",
     "Pipedrive",
     "Zoho CRM",
     "monday.com",
@@ -44,6 +44,6 @@
   ],
   "length": 15,
   "method": "numbered",
-  "hash": "ee743b4d09aacdc8",
-  "changed": "2026-10-06"
+  "hash": "697d97adb12f1217",
+  "changed": "2026-10-12"
 }

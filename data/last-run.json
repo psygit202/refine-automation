@@ -1,5 +1,17 @@
 {
-  "date": "2026-10-07",
+  "date": "2026-10-12",
   "pages": 39,
-  "events": []
+  "events": [
+    {
+      "key": "toolgrowth:updated",
+      "kind": "page-updated",
+      "severity": "low",
+      "page": "toolgrowth",
+      "publisher": "ToolGrowth",
+      "url": "https://toolgrowth.com/best-hubspot-alternatives/",
+      "title": "ToolGrowth: page updated 2026-10-02 → 2026-10-10",
+      "before": "2026-10-02",
+      "after": "2026-10-10"
+    }
+  ]
 }

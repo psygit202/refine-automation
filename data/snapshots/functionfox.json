@@ -3,5 +3,10 @@
   "url": "https://functionfox.com/7-best-agency-crm-software-that-actually-boost-client-growth/",
   "status": "blocked",
   "http": 202,
-  "changed": "2026-10-07"
+  "changed": "2026-10-07",
+  "last_failure": {
+    "date": "2026-10-12",
+    "status": "blocked",
+    "http": 403
+  }
 }
