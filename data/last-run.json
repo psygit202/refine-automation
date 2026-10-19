@@ -1,17 +1,43 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-19",
   "pages": 39,
   "events": [
     {
-      "key": "toolgrowth:updated",
-      "kind": "page-updated",
+      "key": "expandi:rank:folk",
+      "kind": "client-rank",
+      "severity": "high",
+      "page": "expandi",
+      "publisher": "Expandi",
+      "url": "https://expandi.io/blog/linkedin-crm/",
+      "brand": "folk",
+      "direction": "down",
+      "source": "last run",
+      "before": "#5",
+      "after": "#6",
+      "title": "Expandi: folk #5 → #6",
+      "action": "folk lost ground on a page the AIs cite. Send Expandi the update pack (pricing, AI features, a startup case study)."
+    },
+    {
+      "key": "expandi:list",
+      "kind": "list-change",
       "severity": "low",
-      "page": "toolgrowth",
-      "publisher": "ToolGrowth",
-      "url": "https://toolgrowth.com/best-hubspot-alternatives/",
-      "title": "ToolGrowth: page updated 2026-10-02 → 2026-10-10",
-      "before": "2026-10-02",
-      "after": "2026-10-10"
+      "page": "expandi",
+      "publisher": "Expandi",
+      "url": "https://expandi.io/blog/linkedin-crm/",
+      "title": "Expandi: list 15 → 15 items; added Salesflare; removed Copper",
+      "before": "15",
+      "after": "15"
+    },
+    {
+      "key": "toolradar:list",
+      "kind": "list-change",
+      "severity": "low",
+      "page": "toolradar",
+      "publisher": "Toolradar",
+      "url": "https://toolradar.com/guides/best-crm-for-marketing-agencies",
+      "title": "Toolradar: list 8 → 7 items; removed Freshsales",
+      "before": "8",
+      "after": "7"
     }
   ]
 }

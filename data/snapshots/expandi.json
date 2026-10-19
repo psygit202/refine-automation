@@ -5,30 +5,31 @@
   "http": 200,
   "title": "15 Best LinkedIn CRM Tools for 2026 (+ Free Options)",
   "dates": {
-    "modified": "2026-08-18",
+    "modified": "2026-10-15",
     "published": "2026-08-18"
   },
   "ranks": {
-    "folk": 5,
+    "folk": 6,
     "HubSpot": 1,
     "Pipedrive": 4,
-    "Attio": 9,
-    "Zoho CRM": 6,
+    "Attio": 10,
+    "Zoho CRM": 7,
     "Salesforce": 2,
-    "Freshsales": 8,
-    "Breakcold": 12,
-    "Copper": 14,
-    "Close": 7,
-    "Nimble": 10,
-    "LeadDelta": 11,
+    "Freshsales": 9,
+    "Salesflare": 5,
+    "Breakcold": 13,
+    "Close": 8,
+    "Nimble": 11,
+    "LeadDelta": 12,
     "Microsoft Dynamics 365": 3,
-    "NetHunt": 13
+    "NetHunt": 14
   },
   "order": [
     "HubSpot",
     "Salesforce",
     "Microsoft Dynamics 365",
     "Pipedrive",
+    "Salesflare",
     "folk",
     "Zoho CRM",
     "Close",
@@ -38,11 +39,10 @@
     "LeadDelta",
     "Breakcold",
     "NetHunt",
-    "Copper",
     "(other)"
   ],
   "length": 15,
   "method": "numbered",
   "hash": "731a5d73cfa1d3e6",
-  "changed": "2026-10-06"
+  "changed": "2026-10-19"
 }
