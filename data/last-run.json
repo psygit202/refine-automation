@@ -1,32 +1,17 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-26",
   "pages": 39,
   "events": [
     {
-      "key": "expandi:rank:folk",
-      "kind": "client-rank",
-      "severity": "high",
-      "page": "expandi",
-      "publisher": "Expandi",
-      "url": "https://expandi.io/blog/linkedin-crm/",
-      "brand": "folk",
-      "direction": "down",
-      "source": "last run",
-      "before": "#5",
-      "after": "#6",
-      "title": "Expandi: folk #5 → #6",
-      "action": "folk lost ground on a page the AIs cite. Send Expandi the update pack (pricing, AI features, a startup case study)."
-    },
-    {
-      "key": "expandi:list",
-      "kind": "list-change",
+      "key": "digitiz:updated",
+      "kind": "page-updated",
       "severity": "low",
-      "page": "expandi",
-      "publisher": "Expandi",
-      "url": "https://expandi.io/blog/linkedin-crm/",
-      "title": "Expandi: list 15 → 15 items; added Salesflare; removed Copper",
-      "before": "15",
-      "after": "15"
+      "page": "digitiz",
+      "publisher": "Digitiz",
+      "url": "https://digitiz.fr/crm-francais/",
+      "title": "Digitiz: page updated 2026-10-04 → 2026-10-22",
+      "before": "2026-10-04",
+      "after": "2026-10-22"
     },
     {
       "key": "toolradar:list",
@@ -35,9 +20,9 @@
       "page": "toolradar",
       "publisher": "Toolradar",
       "url": "https://toolradar.com/guides/best-crm-for-marketing-agencies",
-      "title": "Toolradar: list 8 → 7 items; removed Freshsales",
-      "before": "8",
-      "after": "7"
+      "title": "Toolradar: list 7 → 9 items; added ActiveCampaign, Freshsales",
+      "before": "7",
+      "after": "9"
     }
   ]
 }

@@ -5,17 +5,19 @@
   "http": 200,
   "title": "Best CRM for Marketing Agencies 2026 | Toolradar",
   "dates": {
-    "modified": "2026-10-15",
+    "modified": "2026-10-26",
     "published": "2026-03-16"
   },
   "ranks": {
     "HubSpot": 2,
     "Pipedrive": 1,
     "Zoho CRM": 4,
-    "monday.com": 6,
+    "monday.com": 7,
+    "Freshsales": 8,
     "Copper": 5,
     "Insightly": 3,
-    "Capsule": 7
+    "ActiveCampaign": 6,
+    "Capsule": 9
   },
   "order": [
     "Pipedrive",
@@ -23,11 +25,13 @@
     "Insightly",
     "Zoho CRM",
     "Copper",
+    "ActiveCampaign",
     "monday.com",
+    "Freshsales",
     "Capsule"
   ],
-  "length": 7,
+  "length": 9,
   "method": "headings",
-  "hash": "503d83a8bb3124cd",
-  "changed": "2026-10-19"
+  "hash": "575c8c511d1ddd67",
+  "changed": "2026-10-26"
 }
