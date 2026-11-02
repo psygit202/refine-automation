@@ -1,28 +1,39 @@
 {
-  "date": "2026-10-26",
+  "date": "2026-11-02",
   "pages": 39,
   "events": [
     {
-      "key": "digitiz:updated",
-      "kind": "page-updated",
+      "key": "bestcrmforstartups:fetch",
+      "kind": "fetch",
       "severity": "low",
-      "page": "digitiz",
-      "publisher": "Digitiz",
-      "url": "https://digitiz.fr/crm-francais/",
-      "title": "Digitiz: page updated 2026-10-04 → 2026-10-22",
-      "before": "2026-10-04",
-      "after": "2026-10-22"
+      "page": "bestcrmforstartups",
+      "publisher": "BestCRMforStartups",
+      "url": "https://bestcrmforstartups.com/crm-software",
+      "title": "BestCRMforStartups: page now error (HTTP 0)",
+      "before": "ok",
+      "after": "error"
     },
     {
-      "key": "toolradar:list",
-      "kind": "list-change",
+      "key": "saasradar:updated",
+      "kind": "page-updated",
       "severity": "low",
-      "page": "toolradar",
-      "publisher": "Toolradar",
-      "url": "https://toolradar.com/guides/best-crm-for-marketing-agencies",
-      "title": "Toolradar: list 7 → 9 items; added ActiveCampaign, Freshsales",
-      "before": "7",
-      "after": "9"
+      "page": "saasradar",
+      "publisher": "SaaS Radar",
+      "url": "https://www.saasradar.fr/blog/meilleur-crm-pme-freelance-2026",
+      "title": "SaaS Radar: page updated 2026-10-04 → 2026-10-30",
+      "before": "2026-10-04",
+      "after": "2026-10-30"
+    },
+    {
+      "key": "layer3labs:updated",
+      "kind": "page-updated",
+      "severity": "low",
+      "page": "layer3labs",
+      "publisher": "Layer3Labs",
+      "url": "https://www.layer3labs.io/comparisons/hubspot-alternatives",
+      "title": "Layer3Labs: page updated 2026-06-25 → 2026-10-29",
+      "before": "2026-06-25",
+      "after": "2026-10-29"
     }
   ]
 }
