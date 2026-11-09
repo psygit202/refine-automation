@@ -5,8 +5,8 @@
   "http": 202,
   "changed": "2026-10-07",
   "last_failure": {
-    "date": "2026-11-02",
-    "status": "blocked",
-    "http": 202
+    "date": "2026-11-09",
+    "status": "error",
+    "http": 0
   }
 }

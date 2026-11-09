@@ -1,7 +1,55 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-09",
   "pages": 39,
   "events": [
+    {
+      "key": "dupple-b2b:rank:folk",
+      "kind": "client-rank",
+      "severity": "high",
+      "page": "dupple-b2b",
+      "publisher": "Dupple",
+      "url": "https://dupple.com/learn/best-crm-for-b2b",
+      "brand": "folk",
+      "direction": "down",
+      "source": "last run",
+      "before": "#8",
+      "after": "#9",
+      "title": "Dupple: folk #8 → #9",
+      "action": "folk lost ground on a page the AIs cite. Send Dupple the update pack (pricing, AI features, a startup case study)."
+    },
+    {
+      "key": "dupple-b2b:list",
+      "kind": "list-change",
+      "severity": "low",
+      "page": "dupple-b2b",
+      "publisher": "Dupple",
+      "url": "https://dupple.com/learn/best-crm-for-b2b",
+      "title": "Dupple: list 8 → 9 items; added Lightfield",
+      "before": "8",
+      "after": "9"
+    },
+    {
+      "key": "dupple-b2b:updated",
+      "kind": "page-updated",
+      "severity": "low",
+      "page": "dupple-b2b",
+      "publisher": "Dupple",
+      "url": "https://dupple.com/learn/best-crm-for-b2b",
+      "title": "Dupple: page updated 2026-06-16 → 2026-11-05",
+      "before": "2026-06-16",
+      "after": "2026-11-05"
+    },
+    {
+      "key": "dupple-startups:updated",
+      "kind": "page-updated",
+      "severity": "low",
+      "page": "dupple-startups",
+      "publisher": "Dupple",
+      "url": "https://dupple.com/learn/best-crm-for-startups",
+      "title": "Dupple: page updated 2026-06-16 → 2026-11-02",
+      "before": "2026-06-16",
+      "after": "2026-11-02"
+    },
     {
       "key": "bestcrmforstartups:fetch",
       "kind": "fetch",
@@ -12,28 +60,6 @@
       "title": "BestCRMforStartups: page now error (HTTP 0)",
       "before": "ok",
       "after": "error"
-    },
-    {
-      "key": "saasradar:updated",
-      "kind": "page-updated",
-      "severity": "low",
-      "page": "saasradar",
-      "publisher": "SaaS Radar",
-      "url": "https://www.saasradar.fr/blog/meilleur-crm-pme-freelance-2026",
-      "title": "SaaS Radar: page updated 2026-10-04 → 2026-10-30",
-      "before": "2026-10-04",
-      "after": "2026-10-30"
-    },
-    {
-      "key": "layer3labs:updated",
-      "kind": "page-updated",
-      "severity": "low",
-      "page": "layer3labs",
-      "publisher": "Layer3Labs",
-      "url": "https://www.layer3labs.io/comparisons/hubspot-alternatives",
-      "title": "Layer3Labs: page updated 2026-06-25 → 2026-10-29",
-      "before": "2026-06-25",
-      "after": "2026-10-29"
     }
   ]
 }
