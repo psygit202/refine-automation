@@ -1,55 +1,7 @@
 {
-  "date": "2026-11-09",
+  "date": "2026-11-16",
   "pages": 39,
   "events": [
-    {
-      "key": "dupple-b2b:rank:folk",
-      "kind": "client-rank",
-      "severity": "high",
-      "page": "dupple-b2b",
-      "publisher": "Dupple",
-      "url": "https://dupple.com/learn/best-crm-for-b2b",
-      "brand": "folk",
-      "direction": "down",
-      "source": "last run",
-      "before": "#8",
-      "after": "#9",
-      "title": "Dupple: folk #8 → #9",
-      "action": "folk lost ground on a page the AIs cite. Send Dupple the update pack (pricing, AI features, a startup case study)."
-    },
-    {
-      "key": "dupple-b2b:list",
-      "kind": "list-change",
-      "severity": "low",
-      "page": "dupple-b2b",
-      "publisher": "Dupple",
-      "url": "https://dupple.com/learn/best-crm-for-b2b",
-      "title": "Dupple: list 8 → 9 items; added Lightfield",
-      "before": "8",
-      "after": "9"
-    },
-    {
-      "key": "dupple-b2b:updated",
-      "kind": "page-updated",
-      "severity": "low",
-      "page": "dupple-b2b",
-      "publisher": "Dupple",
-      "url": "https://dupple.com/learn/best-crm-for-b2b",
-      "title": "Dupple: page updated 2026-06-16 → 2026-11-05",
-      "before": "2026-06-16",
-      "after": "2026-11-05"
-    },
-    {
-      "key": "dupple-startups:updated",
-      "kind": "page-updated",
-      "severity": "low",
-      "page": "dupple-startups",
-      "publisher": "Dupple",
-      "url": "https://dupple.com/learn/best-crm-for-startups",
-      "title": "Dupple: page updated 2026-06-16 → 2026-11-02",
-      "before": "2026-06-16",
-      "after": "2026-11-02"
-    },
     {
       "key": "bestcrmforstartups:fetch",
       "kind": "fetch",
@@ -60,6 +12,54 @@
       "title": "BestCRMforStartups: page now error (HTTP 0)",
       "before": "ok",
       "after": "error"
+    },
+    {
+      "key": "saasradar:updated",
+      "kind": "page-updated",
+      "severity": "low",
+      "page": "saasradar",
+      "publisher": "SaaS Radar",
+      "url": "https://www.saasradar.fr/blog/meilleur-crm-pme-freelance-2026",
+      "title": "SaaS Radar: page updated 2026-10-30 → 2026-11-16",
+      "before": "2026-10-30",
+      "after": "2026-11-16"
+    },
+    {
+      "key": "layer3labs:updated",
+      "kind": "page-updated",
+      "severity": "low",
+      "page": "layer3labs",
+      "publisher": "Layer3Labs",
+      "url": "https://www.layer3labs.io/comparisons/hubspot-alternatives",
+      "title": "Layer3Labs: page updated 2026-10-29 → 2026-11-11",
+      "before": "2026-10-29",
+      "after": "2026-11-11"
+    },
+    {
+      "key": "fluidcrm:rank:folk",
+      "kind": "client-rank",
+      "severity": "high",
+      "page": "fluidcrm",
+      "publisher": "Fluid CRM",
+      "url": "https://fluidcrm.io/blog/hubspot-alternatives-for-small-business/",
+      "brand": "folk",
+      "direction": "down",
+      "source": "last run",
+      "before": "#6",
+      "after": "#7",
+      "title": "Fluid CRM: folk #6 → #7",
+      "action": "folk lost ground on a page the AIs cite. Send Fluid CRM the update pack (pricing, AI features, a startup case study)."
+    },
+    {
+      "key": "fluidcrm:list",
+      "kind": "list-change",
+      "severity": "low",
+      "page": "fluidcrm",
+      "publisher": "Fluid CRM",
+      "url": "https://fluidcrm.io/blog/hubspot-alternatives-for-small-business/",
+      "title": "Fluid CRM: list 7 → 8 items; added Brevo",
+      "before": "7",
+      "after": "8"
     }
   ]
 }

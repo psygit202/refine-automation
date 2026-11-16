@@ -5,29 +5,31 @@
   "http": 200,
   "title": "HubSpot Alternatives For Small Business (Without The Bloat) - Fluid CRM Blog",
   "dates": {
-    "modified": "2026-10-22",
+    "modified": "2026-11-10",
     "published": "2026-04-29"
   },
   "ranks": {
-    "folk": 6,
+    "folk": 7,
     "Pipedrive": 2,
-    "Zoho CRM": 3,
-    "Freshsales": 4,
-    "Keap": 7,
-    "Capsule": 5,
+    "Zoho CRM": 4,
+    "Freshsales": 5,
+    "Brevo": 3,
+    "Keap": 8,
+    "Capsule": 6,
     "Fluid CRM": 1
   },
   "order": [
     "Fluid CRM",
     "Pipedrive",
+    "Brevo",
     "Zoho CRM",
     "Freshsales",
     "Capsule",
     "folk",
     "Keap"
   ],
-  "length": 7,
+  "length": 8,
   "method": "numbered",
-  "hash": "4b8b3b236093594f",
-  "changed": "2026-10-26"
+  "hash": "face456895954d91",
+  "changed": "2026-11-16"
 }
