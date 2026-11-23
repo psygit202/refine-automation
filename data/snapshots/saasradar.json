@@ -3,30 +3,47 @@
   "url": "https://www.saasradar.fr/blog/meilleur-crm-pme-freelance-2026",
   "status": "ok",
   "http": 200,
-  "title": "Meilleur CRM pour PME et freelances en 2026 : comparatif – SaaS Radar",
+  "title": "Meilleur CRM en 2026 : le guide complet – SaaS Radar",
   "dates": {
     "modified": "2026-11-16",
-    "published": "2026-04-28"
+    "published": "2026-05-11"
   },
   "ranks": {
-    "folk": 6,
+    "folk": 7,
     "HubSpot": 1,
     "Pipedrive": 2,
-    "Attio": "mentioned",
-    "Salesforce": 5,
-    "Sellsy": 4,
-    "noCRM.io": 3
+    "Attio": 3,
+    "Zoho CRM": 11,
+    "Salesforce": 9,
+    "monday.com": 12,
+    "Freshsales": 14,
+    "Sellsy": 5,
+    "Copper": 13,
+    "Close": 4,
+    "noCRM.io": 8,
+    "Axonaut": 6,
+    "Microsoft Dynamics 365": 10,
+    "Bitrix24": 15
   },
   "order": [
     "HubSpot",
     "Pipedrive",
-    "noCRM.io",
+    "Attio",
+    "Close",
     "Sellsy",
+    "Axonaut",
+    "folk",
+    "noCRM.io",
     "Salesforce",
-    "folk"
+    "Microsoft Dynamics 365",
+    "Zoho CRM",
+    "monday.com",
+    "Copper",
+    "Freshsales",
+    "Bitrix24"
   ],
-  "length": 6,
+  "length": 15,
   "method": "numbered",
-  "hash": "119c8af93f9618b5",
-  "changed": "2026-11-16"
+  "hash": "49a681d87756d4b5",
+  "changed": "2026-11-23"
 }

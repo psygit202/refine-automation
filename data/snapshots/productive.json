@@ -3,21 +3,19 @@
   "url": "https://productive.io/blog/crm-for-agencies/",
   "status": "ok",
   "http": 200,
-  "title": "Top 16 CRMs for Agencies (Paid & Free) - Decision Guide 2026",
+  "title": "Top 12 CRMs for Agencies (Paid & Free) - Decision Guide 2026",
   "dates": {
-    "modified": "2026-09-30",
-    "published": "2025-12-09"
+    "modified": "2026-11-17",
+    "published": "2026-11-17"
   },
   "ranks": {
     "HubSpot": 5,
-    "Pipedrive": 13,
+    "Pipedrive": 12,
     "Salesforce": 10,
     "monday.com": 7,
     "Close": 4,
     "Insightly": 8,
-    "EngageBay": 12,
-    "Nimble": 11,
-    "Pipeline CRM": 15,
+    "EngageBay": 11,
     "Productive": 1
   },
   "order": [
@@ -31,15 +29,11 @@
     "Insightly",
     "(other)",
     "Salesforce",
-    "Nimble",
     "EngageBay",
-    "Pipedrive",
-    "(other)",
-    "Pipeline CRM",
-    "(other)"
+    "Pipedrive"
   ],
-  "length": 16,
+  "length": 12,
   "method": "numbered",
-  "hash": "5e4ec7aa022506f3",
-  "changed": "2026-10-06"
+  "hash": "abe0abe3006b77d0",
+  "changed": "2026-11-23"
 }

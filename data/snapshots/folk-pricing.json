@@ -3,7 +3,7 @@
   "url": "https://www.folk.app/pricing",
   "status": "ok",
   "http": 200,
-  "title": "folk CRM Pricing — Free, Standard & Premium Plans",
+  "title": "folk CRM Pricing: Standard, Premium and Enterprise plans",
   "dates": {
     "modified": "",
     "published": ""
@@ -12,19 +12,19 @@
     {
       "id": "folk-standard",
       "label": "folk Standard, per member per month, billed yearly",
-      "value": "24",
+      "value": null,
       "expected": "24",
-      "ok": true,
+      "ok": false,
       "used_in": "LinkedIn message 3; slide 4"
     },
     {
       "id": "folk-premium",
       "label": "folk Premium, per member per month, billed yearly",
-      "value": "48",
+      "value": null,
       "expected": "48",
-      "ok": true,
+      "ok": false,
       "used_in": "Slide 4 footnote"
     }
   ],
-  "changed": "2026-10-06"
+  "changed": "2026-11-23"
 }

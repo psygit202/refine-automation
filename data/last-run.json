@@ -1,7 +1,18 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-23",
   "pages": 39,
   "events": [
+    {
+      "key": "dupple-startups:updated",
+      "kind": "page-updated",
+      "severity": "low",
+      "page": "dupple-startups",
+      "publisher": "Dupple",
+      "url": "https://dupple.com/learn/best-crm-for-startups",
+      "title": "Dupple: page updated 2026-11-02 → 2026-11-18",
+      "before": "2026-11-02",
+      "after": "2026-11-18"
+    },
     {
       "key": "bestcrmforstartups:fetch",
       "kind": "fetch",
@@ -14,52 +25,80 @@
       "after": "error"
     },
     {
-      "key": "saasradar:updated",
-      "kind": "page-updated",
-      "severity": "low",
+      "key": "saasradar:rank:folk",
+      "kind": "client-rank",
+      "severity": "high",
       "page": "saasradar",
       "publisher": "SaaS Radar",
       "url": "https://www.saasradar.fr/blog/meilleur-crm-pme-freelance-2026",
-      "title": "SaaS Radar: page updated 2026-10-30 → 2026-11-16",
-      "before": "2026-10-30",
-      "after": "2026-11-16"
-    },
-    {
-      "key": "layer3labs:updated",
-      "kind": "page-updated",
-      "severity": "low",
-      "page": "layer3labs",
-      "publisher": "Layer3Labs",
-      "url": "https://www.layer3labs.io/comparisons/hubspot-alternatives",
-      "title": "Layer3Labs: page updated 2026-10-29 → 2026-11-11",
-      "before": "2026-10-29",
-      "after": "2026-11-11"
-    },
-    {
-      "key": "fluidcrm:rank:folk",
-      "kind": "client-rank",
-      "severity": "high",
-      "page": "fluidcrm",
-      "publisher": "Fluid CRM",
-      "url": "https://fluidcrm.io/blog/hubspot-alternatives-for-small-business/",
       "brand": "folk",
       "direction": "down",
       "source": "last run",
       "before": "#6",
       "after": "#7",
-      "title": "Fluid CRM: folk #6 → #7",
-      "action": "folk lost ground on a page the AIs cite. Send Fluid CRM the update pack (pricing, AI features, a startup case study)."
+      "title": "SaaS Radar: folk #6 → #7",
+      "action": "folk lost ground on a page the AIs cite. Send SaaS Radar the update pack (pricing, AI features, a startup case study)."
     },
     {
-      "key": "fluidcrm:list",
+      "key": "saasradar:rank:Attio",
+      "kind": "rival-rank",
+      "severity": "medium",
+      "page": "saasradar",
+      "publisher": "SaaS Radar",
+      "url": "https://www.saasradar.fr/blog/meilleur-crm-pme-freelance-2026",
+      "brand": "Attio",
+      "direction": "changed",
+      "source": "last run",
+      "before": "mentioned, not ranked",
+      "after": "#3",
+      "title": "SaaS Radar: Attio mentioned, not ranked → #3",
+      "action": ""
+    },
+    {
+      "key": "saasradar:list",
       "kind": "list-change",
       "severity": "low",
-      "page": "fluidcrm",
-      "publisher": "Fluid CRM",
-      "url": "https://fluidcrm.io/blog/hubspot-alternatives-for-small-business/",
-      "title": "Fluid CRM: list 7 → 8 items; added Brevo",
-      "before": "7",
-      "after": "8"
+      "page": "saasradar",
+      "publisher": "SaaS Radar",
+      "url": "https://www.saasradar.fr/blog/meilleur-crm-pme-freelance-2026",
+      "title": "SaaS Radar: list 6 → 15 items; added Attio, Close, Axonaut, Microsoft Dynamics 365, Zoho CRM, monday.com, Copper, Freshsales, Bitrix24",
+      "before": "6",
+      "after": "15"
+    },
+    {
+      "key": "productive:list",
+      "kind": "list-change",
+      "severity": "low",
+      "page": "productive",
+      "publisher": "Productive.io",
+      "url": "https://productive.io/blog/crm-for-agencies/",
+      "title": "Productive.io: list 16 → 12 items; removed Nimble, Pipeline CRM",
+      "before": "16",
+      "after": "12"
+    },
+    {
+      "key": "folk-pricing:fact:folk-standard",
+      "kind": "fact-check",
+      "severity": "high",
+      "page": "folk-pricing",
+      "publisher": "folk",
+      "url": "https://www.folk.app/pricing",
+      "title": "folk: folk Standard, per member per month, billed yearly: 24 → not found",
+      "before": "24",
+      "after": "not found",
+      "action": "Update everything that quotes this fact: LinkedIn message 3; slide 4."
+    },
+    {
+      "key": "folk-pricing:fact:folk-premium",
+      "kind": "fact-check",
+      "severity": "high",
+      "page": "folk-pricing",
+      "publisher": "folk",
+      "url": "https://www.folk.app/pricing",
+      "title": "folk: folk Premium, per member per month, billed yearly: 48 → not found",
+      "before": "48",
+      "after": "not found",
+      "action": "Update everything that quotes this fact: Slide 4 footnote."
     }
   ]
 }
